@@ -95,7 +95,7 @@ A API estará disponível em: http://127.0.0.1:8000
 O FastAPI gera automaticamente uma documentação interativa (Swagger UI). Acesse http://127.0.0.1:8000/docs para testar os endpoints diretamente pelo navegador.
 
 ### Exemplo de Request (JSON)
-**POST**  `/recomendar_por_id`
+**POST**  `/recomendar`
 
 ```JSON
 {
