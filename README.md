@@ -64,7 +64,7 @@ Certifique-se de ter o Python 3.9+ instalado.
 1. Clone o repositório:
 
 ```Bash
-git clone [https://github.com/DanL0pes/RecomendaFilmeML.git](https://github.com/DanL0pes/RecomendaFilmeML.git)
+git clone https://github.com/DanL0pes/RecomendaFilmeML.git
 cd RecomendaFilmeML
 ```
 
