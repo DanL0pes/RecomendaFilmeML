@@ -2,9 +2,9 @@
 
 > Um projeto End-to-End de Machine Learning implementando Filtragem Colaborativa com Python.
 
-![GitHub repo size](https://img.shields.io/github/repo-size/SEU_USUARIO/NOME_DO_REPO?style=for-the-badge)
-![GitHub language count](https://img.shields.io/github/languages/count/SEU_USUARIO/NOME_DO_REPO?style=for-the-badge)
-![GitHub last commit](https://img.shields.io/github/last-commit/SEU_USUARIO/NOME_DO_REPO?style=for-the-badge)
+![GitHub repo size](https://img.shields.io/github/repo-size/DanL0pes/RecomendaFilmeML?style=for-the-badge)
+![GitHub language count](https://img.shields.io/github/languages/count/DanL0pes/RecomendaFilmeML?style=for-the-badge)
+![GitHub last commit](https://img.shields.io/github/last-commit/DanL0pes/RecomendaFilmeML?style=for-the-badge)
 
 ---
 
