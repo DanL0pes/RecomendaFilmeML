@@ -53,3 +53,70 @@ Este repositório contém o ciclo completo de desenvolvimento de um sistema de r
 │   ├── matriz_filmes.pkl         # Modelo serializado (Matriz Pivot)
 │   └── tabela_filmes.pkl         # Dicionário de IDs e Títulos
 └── README.md
+```
+
+## Como Executar
+
+### Pré-requisitos
+
+Certifique-se de ter o Python 3.9+ instalado.
+
+1. Clone o repositório:
+
+```Bash
+git clone [https://github.com/DanL0pes/RecomendaFilmeML.git](https://github.com/DanL0pes/RecomendaFilmeML.git)
+cd RecomendaFilmeML
+```
+
+2. Instale as dependências:
+
+```Bash
+pip install -r src/requirements.txt
+```
+
+### Passo 1: Gerar o Modelo (Estudo)
+
+Abra o notebook na pasta notebooks/ e execute todas as células. Isso irá baixar o dataset, treinar o modelo e gerar os arquivos .pkl necessários na pasta raiz.
+
+### Passo 2: Rodar a API
+
+Execute o servidor Uvicorn apontando para o arquivo da API:
+
+```Bash
+uvicorn src.main:app --reload
+```
+
+A API estará disponível em: http://127.0.0.1:8000
+
+---
+
+## Documentação da API
+
+O FastAPI gera automaticamente uma documentação interativa (Swagger UI). Acesse http://127.0.0.1:8000/docs para testar os endpoints diretamente pelo navegador.
+
+### Exemplo de Request (JSON)
+**POST**  `/recomendar_por_id`
+
+```JSON
+{
+  "avaliacoes": [
+    { "movie_id": 1, "rating": 5.0 },
+    { "movie_id": 318, "rating": 5.0 },
+    { "movie_id": 296, "rating": 4.5 }
+  ]
+}
+```
+
+## Próximos Passos (Roadmap)
+- [ ] Implementar tratamento de Matrizes Esparsas (Sparse Matrix) para suportar o dataset MovieLens 25M.
+
+- [ ] Criar um frontend simples em Streamlit ou React.
+
+- [ ] Containerizar a aplicação com Docker.
+
+## Contribuição
+Contribuições são bem-vindas! Sinta-se à vontade para abrir uma issue ou enviar um Pull Request.
+
+---
+
+<div align="center"> Feito com 💙 e Python </div>
